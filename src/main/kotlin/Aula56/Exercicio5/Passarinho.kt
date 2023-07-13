@@ -2,14 +2,14 @@ package Aula56.Exercicio5
 
 class Passarinho (nome: String, raca: String, responsavel: String) : Animal(nome, raca, responsavel) {
     override fun movimentar() {
-        println("Voando")
+        println("\nVoando")
     }
 
     override fun comer() {
-        println("Comendo alpiste")
+        println("\nComendo alpiste")
     }
 
     override fun dormir() {
-        println("Dormindo no ninho")
+        println("\nDormindo no ninho")
     }
 }
